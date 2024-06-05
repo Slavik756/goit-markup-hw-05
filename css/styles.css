@@ -518,6 +518,9 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.div-form-footer {
+    border-left: 60 px;
+}
 .p-form-footer {
     margin-bottom: 16px;
     font-weight: 500;
