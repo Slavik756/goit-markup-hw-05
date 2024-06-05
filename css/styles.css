@@ -564,7 +564,8 @@ img {
 }
 .svg-form-footer {
     margin-left: 16px;
-    fill: #ffffff;
+    fill: transparent;
+    stroke: #FFFFFF;
 }
 .div-form-label {
     position: fixed;
