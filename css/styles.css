@@ -519,7 +519,7 @@ img {
     overflow: hidden;
 }
 .div-form-footer {
-    border-left: 60 px;
+   
 }
 .p-form-footer {
     margin-bottom: 16px;
@@ -567,8 +567,7 @@ img {
 }
 .svg-form-footer {
     margin-left: 16px;
-    fill: transparent;
-    stroke: #FFFFFF;
+    fill: #FFFFFF;
 }
 .div-form-label {
     position: fixed;
