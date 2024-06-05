@@ -543,7 +543,7 @@ img {
     border-radius: 4px;
     color: #ffffff;
 }
-.input-class::placeholder {
+.input-form-footer::placeholder {
     color: #ffffff;
 }
 .button-form-footer {
