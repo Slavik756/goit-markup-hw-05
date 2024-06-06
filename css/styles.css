@@ -637,13 +637,3 @@ img {
         color: var(--color-paragraph, #2E2F42);
         margin-bottom: 16px;
 }
-.div-input-wrapper {
-    margin-bottom: 8px;
-}
-.label-input {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: var(--color-label, #8e8f99);
-    display: block;
-}
