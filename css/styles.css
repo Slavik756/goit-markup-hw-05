@@ -701,3 +701,17 @@ img {
 .textarea-div-label:focus {
     border-color: #4D5AE5;
 }
+.textarea-div-div {
+    margin-bottom: 24px;
+}
+.textarea-div-input {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+}
