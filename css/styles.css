@@ -745,8 +745,7 @@ img {
     display: block;
     width: 169px; 
     height: 56px;
-    top: 584px ;
-    left: 635px;
+    margin: auto;
     border-radius: 4px;
     padding: 16px 32px 16px 32px; 
     gap: 10px;
