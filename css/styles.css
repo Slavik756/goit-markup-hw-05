@@ -721,3 +721,19 @@ img {
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
+.label-span-div {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+input[type="checkbox"]:checked+.label-span-div {
+    background-color: var(--checked-background-color, #404bbf);
+    border: none;
+    fill: var(--checked-fill-color, #F4F4FD);
+}
