@@ -588,7 +588,8 @@ img {
     transform: translate(-50%, -50%);
     width: 408px;
     min-height: 584px;
-    background: #fcfcfc;
+    padding: 72px 24px 24px 24px;
+    background-color: #fcfcfc;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -612,12 +613,7 @@ img {
 
 }
 
-.button-div-form:hover {
-    background-color: #404bbf;
-    border: none;
-
-}
-
+.button-div-form:hover,
 .button-div-form:focus {
     background-color: #404bbf;
     border: none;
@@ -625,12 +621,13 @@ img {
 }
 
 .svg-button-form {
+    fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+   
 }
 
-.button-div-form:hover .svg-button-form,
-.button-div-form:focus .svg-button-form {
+.button-div-form:hover,
+.button-div-form:focus {
     fill: #ffffff;
 }
 
