@@ -732,3 +732,11 @@ img {
     justify-content: center;
     fill: transparent;
 }
+input:checked + span {
+    background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
+}
+.a-span-label {
+    color: #4d5ae5;
+}
