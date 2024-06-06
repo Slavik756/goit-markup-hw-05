@@ -748,7 +748,7 @@ img {
     Top: 584px ;
     Left: 635px;
     Radius: 4px;
-    Padding: 16px 32px 16px 32px; 
+    Padding: 16px 32px ; 
     Gap: 10px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
