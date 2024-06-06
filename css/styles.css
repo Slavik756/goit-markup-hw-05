@@ -621,7 +621,7 @@ img {
 }
 
 .svg-button-form {
-    fill: #2e2f42;
+    
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
@@ -650,5 +650,5 @@ img {
     color: var(--paragraph-color, #8e8f99);
     display: block;
     margin-bottom: 4px;
-    
+
 }
