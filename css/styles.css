@@ -704,7 +704,7 @@ img {
 .textarea-div-div {
     margin-bottom: 24px;
 }
-.textarea-div-input {
+.visually-hidden {
             position: absolute;
             width: 1px;
             height: 1px;
@@ -714,4 +714,10 @@ img {
             overflow: hidden;
             clip: rect(0, 0, 0, 0);
             white-space: nowrap;
+}
+.git-input-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
 }
