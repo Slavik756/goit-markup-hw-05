@@ -732,8 +732,11 @@ img {
     justify-content: center;
     fill: transparent;
 }
-input[type="checkbox"]:checked + span {
-    background-color: var(--background-color, #404bbf);
+:root {
+    --icon-color-checked: #F4F4FD;
+}
+
+input[type="checkbox"]:checked+span {
     border: none;
-    fill: var(--checked-fill-color, #F4F4FD);
+    color: var(--icon-color-checked);
 }
