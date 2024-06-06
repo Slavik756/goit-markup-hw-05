@@ -570,6 +570,9 @@ img {
     margin-left: 16px;
     fill: #FFFFFF;
 }
+.modal-container {
+    padding: 72px 24px 24px 24px;
+}
 .div-form-label {
     position: fixed;
     top: 0;
@@ -624,4 +627,23 @@ img {
 .button-div-form:hover .svg-button-form,
 .button-div-form:focus .svg-button-form {
     fill: #ffffff;
+}
+.p-modal-form {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--color-paragraph, #2E2F42);
+        margin-bottom: 16px;
+}
+.div-input-wrapper {
+    margin-bottom: 8px;
+}
+.label-input {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--color-label, #8e8f99);
+    display: block;
 }
