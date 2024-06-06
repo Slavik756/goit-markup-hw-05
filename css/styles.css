@@ -732,19 +732,3 @@ img {
     justify-content: center;
     fill: transparent;
 }
-:root {
-    --icon-color-checked: #F4F4FD;
-}
-
-input[type="checkbox"]:checked+span {
-    border: none;
-    color: var(--icon-color-checked);
-}
-
-:root {
-    --link-color: #4d5ae5;
-}
-
-.link-style-use {
-    color: var(--link-color);
-}
