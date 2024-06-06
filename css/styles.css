@@ -635,3 +635,12 @@ img {
 .modal {
     padding: 72px 24px 24px 24px;
 }
+.p-text-modal {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: var(--paragraph-color, #2E2F42);
+        margin-bottom: 16px;
+}
