@@ -611,10 +611,12 @@ img {
 .button-div-form:hover {
     background-color: #404bbf;
         border: none;
+        fill: #ffffff
 }
 .button-div-form:focus {
     background-color: #404bbf;
         border: none;
+        fill: #ffffff
 }
 .svg-button-form {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
