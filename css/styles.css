@@ -743,8 +743,13 @@ img {
 }
 .button-xyz {
     display: block;
-    min-width: 169px;
-    height: 56px;
+    Width: 169px; 
+    Height: 56px;
+    Top: 584px ;
+    Left: 635px;
+     
+    Padding: 16px 32px 16px 32px; 
+    Gap: 10px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
