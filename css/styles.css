@@ -732,10 +732,11 @@ img {
     justify-content: center;
     fill: transparent;
 }
-input:checked + span {
+input[type="checkbox"]:checked+.label-span-div {
     background-color: #404bbf;
-    border: none;
-    fill: #F4F4FD;
+        border: none;
+        fill: #F4F4FD;
+
 }
 .a-span-label {
     color: #4d5ae5;
